@@ -1,43 +1,29 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+*.log
+*.pot
+*.pyc
+*.sw[p-z]
+*.db
 .DS_Store
-.AppleDouble
-.LSOverride
+.idea
+.coverage
+.tox
+htmlcov
+config/config.yml
+config/*.pem
+newrelic.ini
+reports
 
-# Thumbnails
-._*
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+Vagrantfile
+.vagrant
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+*tmp
+
+*.sublime-workspace
+*.sublime-project
